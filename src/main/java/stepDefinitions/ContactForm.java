@@ -94,7 +94,7 @@ public class ContactForm {
 	public void verifying_the_status() {
 		
 		WebDriverWait wait1 = new WebDriverWait(driver, 20);
-		wait1.until(ExpectedConditions.visibilityOf(driver.findElement(By.xpath("//*[@id=\"success_status\"]"))));
+		wait1.until(ExpectedConditions.visibilityOf(driver.findElement(By.xpath("//*[@id=\"error_status\"]"))));
 
 	}
 
