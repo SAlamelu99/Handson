@@ -1,0 +1,149 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2004543400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ContactForm.startBrowser()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Sign up to the contact form",
+        "description": "",
+        "id": "creating-a-simple-contact-form;sign-up-to-the-contact-form",
+        "after": [
+          {
+            "result": {
+              "duration": 651966100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ContactForm.closebrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2203282300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is in Application Home Page",
+            "match": {
+              "location": "ContactForm.user_is_in_Application_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8847300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the title is Basic Contact Form - myContactForm.com",
+            "match": {
+              "location": "ContactForm.the_title_is_Basic_Contact_Form_myContactForm_com()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2150957000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "click on here link",
+            "match": {
+              "location": "ContactForm.click_on_here_link()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4180100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the title is Become a Site User - myContactForm.com",
+            "match": {
+              "location": "ContactForm.the_title_is_Become_a_Site_User_myContactForm_com()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 353783400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enters the details",
+            "match": {
+              "location": "ContactForm.user_enters_the_details(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Sabari Kannan",
+                  "sabarikannan@gmail.com"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 50981700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user click on privacy check box",
+            "match": {
+              "location": "ContactForm.user_click_on_privacy_check_box()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 768143500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user clicks on submit button",
+            "match": {
+              "location": "ContactForm.user_clicks_on_submit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 84000900,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "verifying the status",
+            "match": {
+              "location": "ContactForm.verifying_the_status()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Creating a simple Contact Form",
+    "description": "",
+    "id": "creating-a-simple-contact-form",
+    "keyword": "Feature",
+    "uri": "src/main/java/features/contactForm.feature",
+    "tags": []
+  }
+]

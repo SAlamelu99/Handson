@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="8.283038">
+<testcase classname="Creating a simple Contact Form" name="Sign up to the contact form" time="8.283038">
+<system-out><![CDATA[Given user is in Application Home Page......................................passed
+When the title is Basic Contact Form - myContactForm.com....................passed
+Then click on here link.....................................................passed
+When the title is Become a Site User - myContactForm.com....................passed
+Then user enters the details................................................passed
+Then user click on privacy check box........................................passed
+And user clicks on submit button............................................passed
+Then verifying the status...................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
