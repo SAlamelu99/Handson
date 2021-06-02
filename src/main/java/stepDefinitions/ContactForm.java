@@ -20,7 +20,7 @@ import junit.framework.Assert;
 public class ContactForm {
 	
 
-	public static WebDriver driver;
+	public static WebDriver driver1;
 
 	@Before
 	public void startBrowser() {
